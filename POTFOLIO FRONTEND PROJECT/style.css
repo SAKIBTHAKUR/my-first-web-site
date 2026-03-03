@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@root {
+    --red-color: rgba(224, 85, 85, 0.829);
+    --blue-color: rgba(85, 85, 224, 0.829);
+}
+
+body {
+    background-color: rgba(54, 74, 189, 0.829);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 45px;
+    background-color: rgba(14, 31, 128, 0.548);
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(202, 255, 12);
+}
+
+.left {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 3vw 0;
+}
+
+.firstsection>div {
+    width: 30%;
+}
+
+.leftsection {
+    font-size: 3rem;
+}
+.leftsection button{
+    padding: 8px;
+    background-color:#3b54eb;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+.rightsection img {
+    width: 80%;
+
+}
+
+.purple {
+    color: rgb(202, 255, 12);
+}
+
+#element {
+    color: rgb(202, 255, 12);
+}
+
+.secondsection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+hr {
+    border: 0;
+    height: 3px;
+    background-color: rgb(202, 255, 12);
+    ;
+    margin: 50px 45px;
+}
+
+.text-secondcolor {
+    color: rgb(236, 252, 9);
+
+}
+
+.box {
+    background-color: white;
+    height: 3px;
+    width: 80vw;
+    margin: 40px 2px;
+    display: flex;
+}
+
+.vertical {
+    background-color: red;
+    width: 2px;
+    height: 35px;
+    margin: 6px 154px;
+
+}
+
+.text-secondcolor {
+    display: flex;
+    justify-self: center;
+}
+
+.secondsection>h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.img-first img {
+    width: 36px;
+    position: relative;
+    top: -45px;
+    left: -15px;
+}
+
+.first-tittle {
+    position: relative;
+    left: -60px;
+    width: 150px;
+}
+
+.first-dis {
+    width: 140px;
+    position: relative;
+    font-size: 9px;
+    text-align: justify;
+    left: -60px;
+    color: #ffdd37;
+}
+
+footer {
+    background-color: rgba(14, 31, 128, 0.548);
+    height: 215px;
+
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3px;
+}
+
+.footer ul li {
+    list-style: none;
+    margin: 5px 133px;
+    width: 96px;
+
+}
+
+.heading {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+
+.rights {
+    text-align: center;
+    font-size: 14px;
+}
